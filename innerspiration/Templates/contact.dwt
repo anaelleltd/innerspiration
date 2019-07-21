@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Contact</title>
+	<!-- TemplateEndEditable -->
+	<link rel="stylesheet" type="text/css" href="../css/inner1280.css">
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+<body> <div class="container2">
+	<header> 
+		<img class="logo" src="../images/innerlogo.png" alt="logo">
+		<nav> 
+			<ul class="nav"> 
+				<li class="menu"> <a href="index.html">Home</a> </li>
+				<li class="menu"> <a href="aboutme.html">About me</a> </li>
+				<ul>
+					<li class="background"><a href="#AM1">Background</a></li>
+					<li class="background"><a href="#AM2">Training</a></li>
+					<li class="background"><a href="#AM3">Philosophy</a></li>
+				</ul>
+				<li class="menu"> <a href="programs.html">Programs</a> </li>
+				<ul>
+					<li class="programs"><a href="#P1">Support groups</a></li>
+					<li class="programs"><a href="#P2">Workshops</a></li>
+					<li class="programs"><a href="#P3">Training</a></li>
+				</ul>
+				<li class="menu"> <a href="contact.html">Contact</a> </li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+	<!-- TemplateBeginEditable name="section" -->
+		<section div class="visuals3"> 
+			<p>
+			Add any relevant pictures here.
+			</p>
+		</section>
+		<section div class="contact">
+			<article div class="contactme"> 
+				<p>
+				Anne F.'s article about contact options.
+				</p>
+			</article>
+			<aside div class="contactform"> 
+				<form id="contact-form" action="script.php" method="post">
+					<fieldset>
+					<ul><input type="hidden" name="redirect" value="http://www.opera.com" />
+					<li> 
+					<label for="name"> Name: </label> <br>
+					<input type="text" name="name" id="name" value=""/>
+					</li>
+					<br>
+					<li>
+					<label for="email"> Email: </label> <br>
+					<input type="text" name="email" id="email" value=""/>
+					</li>
+					<br>
+					<li>
+					<label for="comments"> Comments: </label> <br>
+					<textarea name="comments" id="comments" cols="50" rows="10"> 
+					</textarea>
+					</li>
+					<br>
+					<li>
+					<input type="submit" value="Send email" />
+					<input type="reset" value="Reset" />
+					</li>
+					</ul>
+					</fieldset>
+				</form>
+			</aside>
+			</section>
+	<!-- TemplateEndEditable -->
+	</main>
+	<footer> 	
+		<div class="contact">
+			<p>
+			&copy InnerSpiration 2017
+			<br> Content by Anne F.
+			<br> Design by Anaelle LTD.
+			</p>
+		</div>
+		<div class="buttons">  
+		<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse"><img src="../images/buttonfacebook.JPG" alt="facebook logo" width="30" height="30"></a>
+		<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=InnerSpiration" data-size="large"><img src="../images/buttontwitter.JPG" alt="twitter logo" width="30" height="30"> </a>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>
