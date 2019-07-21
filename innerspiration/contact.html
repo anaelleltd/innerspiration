@@ -4,13 +4,23 @@
 	<meta charset="utf-8">
 	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="css/inner1280.css">
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	<script src="js/carousel.js"> </script>
 </head>
-<body> <div id="container">
+<body> 
+<div id="fb-root"></div>
+<div id="container">
 	<header> 
 		<img class="logo" src="images/innerlogo.png" alt="logo">
 		<nav> 
 			<ul class="nav"> 
-				<li> <a href="index.html">Home</a> </li>
+				<li> <a href="innerspiration.html">Home</a> </li>
 				<li> <a href="aboutme.html">About me</a>
 				<ul>
 					<li><a href="aboutme.html#AM1">Background</a></li>
@@ -31,56 +41,50 @@
 	</header>
 	<main>
 		<div class="visuals3"> 
-			<img id="contactpic1" src="images/headerpic2.jpg" alt="diamond lotus">
+			<p id="carousel"> Click through the arrows below for some inspiration.</p>
+			<div class="slideshow-container">
+  			<div class="mySlides fade">
+   				<img src="images/carousel1.jpg" alt="flying bug" style="width:100%">
+ 			</div>
+  			<div class="mySlides fade">
+    			<img src="images/carousel2.jpg" alt="mad words" style="width:100%">
+  			</div>
+ 			<div class="mySlides fade">
+    			<img src="images/carousel3.jpg" alt="shiny crystals" style="width:100%">
+  			</div>
+	 	 	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+			<div style="text-align:center">
+  			<span class="dot" onclick="currentSlide(1)"></span>
+  			<span class="dot" onclick="currentSlide(2)"></span>
+  			<span class="dot" onclick="currentSlide(3)"></span>
+			</div> 
 		</div>
 		<div class="contactme">
 			<article> 
 				<h2> Contact me </h2>
 				<p>
-				Anne F.'s article about contact options.
-				<br> Address
-				<br> Phone
+				Please feel free to share Innerspiration on Facebook <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse"><img src="images/buttonfacebook.jpg" alt="facebook logo" width="20" height="20"></a> and Twitter <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=InnerSpiration" data-size="large"><img src="images/buttontwitter.jpg" alt="twitter logo" width="20" height="20"></a>.
 				</p>
 			</article>
 			<aside> 
-				<form id="contact-form" action="Templates/script.php" method="post">
-					<fieldset>
-					<input type="hidden" name="redirect" value="http://www.opera.com"/>
-					<ul>
-					<li> 
-					<label for="name"> Name: </label>
-					<input type="text" name="name" id="name" value=""/>
-					</li>
-					<li>
-					<label for="email"> Email: </label>
-					<input type="text" name="email" id="email" value=""/>
-					</li>
-					<li>
-					<label for="comments"> Comments: </label>
-					<textarea name="comments" id="comments" cols="50" rows="10"> 
-					</textarea>
-					</li>
-					<li>
-					<input type="submit" value="Send email" />
-					<input type="reset" value="Reset" />
-					</li>
-					</ul>
-					</fieldset>
-				</form>
+				<p>
+				If you have some words of wisdom to inspire visitors, please post them in the comment section below. 
+				</p>
+				<div class="fb-comments" data-href="https://anaelleltd.company/portfolio/innerspiration.html" data-width="450" data-numposts="3"></div>
 			</aside>
-			</div>
+		</div>
+	
 	</main>
 	<footer> 	
 		<div class="contact">
 			<p>
 			&copy; InnerSpiration 2017
 			<br> Content by Anne F.
-			<br> Design by A. Talelo
+			<br> Design by Anaelle LTD.
 			</p>
-		</div>
-		<div class="buttons">  
-		<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse"><img src="images/buttonfacebook.JPG" alt="facebook logo" width="30" height="30"></a>
-		<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=InnerSpiration" data-size="large"><img src="images/buttontwitter.JPG" alt="twitter logo" width="30" height="30"> </a>
 		</div>
 	</footer>
 	</div>
